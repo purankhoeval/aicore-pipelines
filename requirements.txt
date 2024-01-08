@@ -1,0 +1,20 @@
+transformers
+tokenizers>=0.13.3
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch
+fastapi
+uvicorn
+accelerate
+huggingface_hub
+chromadb==0.4.20
+llama-index==0.9.17
+sentence-transformers==2.1.0
+PyPDF2==1.26.0
+pysftp
+# pytesseract and its dependencies
+pillow
+pytesseract
+
+
+# pdf2image and its dependencies
+pdf2image
