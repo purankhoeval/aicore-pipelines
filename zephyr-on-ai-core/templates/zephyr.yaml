@@ -1,7 +1,7 @@
 apiVersion: ai.sap.com/v1alpha1
 kind: ServingTemplate
 metadata:
-  name: transformers
+  name: zephyr
   annotations:
     scenarios.ai.sap.com/description: "zephyr"
     scenarios.ai.sap.com/name: "zephyr"
