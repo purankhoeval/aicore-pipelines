@@ -14,7 +14,7 @@ pysftp
 # pytesseract and its dependencies
 pillow
 pytesseract
-
+pysqlite3-binary
 
 # pdf2image and its dependencies
 pdf2image
