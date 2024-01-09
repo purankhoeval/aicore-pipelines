@@ -19,6 +19,8 @@ from llama_index import (
 )
 from llama_index.llms import HuggingFaceInferenceAPI
 from llama_index.embeddings import HuggingFaceEmbedding
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import chromadb
 from chromadb.utils import embedding_functions
 from llama_index import download_loader
